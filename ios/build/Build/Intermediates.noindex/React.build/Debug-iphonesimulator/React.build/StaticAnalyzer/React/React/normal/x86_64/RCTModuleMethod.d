@@ -1,0 +1,28 @@
+dependencies: \
+  /Users/girbaudbarthels/Apps/AwesomeProject/node_modules/react-native/React/Base/RCTModuleMethod.mm \
+  /Users/girbaudbarthels/Apps/AwesomeProject/node_modules/react-native/React/Base/RCTModuleMethod.h \
+  /Users/girbaudbarthels/Apps/AwesomeProject/node_modules/react-native/React/Base/RCTBridgeMethod.h \
+  /Users/girbaudbarthels/Apps/AwesomeProject/node_modules/react-native/React/Base/RCTBridgeModule.h \
+  /Users/girbaudbarthels/Apps/AwesomeProject/node_modules/react-native/React/Base/RCTDefines.h \
+  /Users/girbaudbarthels/Apps/AwesomeProject/node_modules/react-native/React/Base/RCTNullability.h \
+  /Users/girbaudbarthels/Apps/AwesomeProject/node_modules/react-native/React/Base/RCTAssert.h \
+  /Users/girbaudbarthels/Apps/AwesomeProject/node_modules/react-native/React/Base/RCTBridge+Private.h \
+  /Users/girbaudbarthels/Apps/AwesomeProject/node_modules/react-native/React/Base/RCTBridge.h \
+  /Users/girbaudbarthels/Apps/AwesomeProject/node_modules/react-native/React/Base/RCTBridgeDelegate.h \
+  /Users/girbaudbarthels/Apps/AwesomeProject/node_modules/react-native/React/Base/RCTJavaScriptLoader.h \
+  /Users/girbaudbarthels/Apps/AwesomeProject/node_modules/react-native/React/Base/RCTFrameUpdate.h \
+  /Users/girbaudbarthels/Apps/AwesomeProject/node_modules/react-native/React/Base/RCTInvalidating.h \
+  /Users/girbaudbarthels/Apps/AwesomeProject/node_modules/react-native/React/Base/RCTConvert.h \
+  /Users/girbaudbarthels/Apps/AwesomeProject/node_modules/react-native/React/Views/RCTAnimationType.h \
+  /Users/girbaudbarthels/Apps/AwesomeProject/node_modules/react-native/React/Views/RCTBorderStyle.h \
+  /Users/girbaudbarthels/Apps/AwesomeProject/node_modules/react-native/React/Base/RCTLog.h \
+  /Users/girbaudbarthels/Apps/AwesomeProject/node_modules/react-native/React/Base/RCTUtils.h \
+  /Users/girbaudbarthels/Apps/AwesomeProject/node_modules/react-native/React/Views/RCTPointerEvents.h \
+  /Users/girbaudbarthels/Apps/AwesomeProject/node_modules/react-native/React/Views/RCTTextDecorationLineType.h \
+  /Users/girbaudbarthels/Apps/AwesomeProject/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/Yoga.h \
+  /Users/girbaudbarthels/Apps/AwesomeProject/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/YGEnums.h \
+  /Users/girbaudbarthels/Apps/AwesomeProject/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/YGMacros.h \
+  /Users/girbaudbarthels/Apps/AwesomeProject/node_modules/react-native/React/Base/RCTCxxConvert.h \
+  /Users/girbaudbarthels/Apps/AwesomeProject/node_modules/react-native/React/Base/RCTManagedPointer.h \
+  /Users/girbaudbarthels/Apps/AwesomeProject/node_modules/react-native/React/Base/RCTParserUtils.h \
+  /Users/girbaudbarthels/Apps/AwesomeProject/node_modules/react-native/React/Profiler/RCTProfile.h
