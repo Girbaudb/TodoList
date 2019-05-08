@@ -1,0 +1,44 @@
+<ion-header>
+
+  <ion-toolbar color="primary">
+    <div class="bgImageTb" [ngStyle]="{'background': 'url(https://firebasestorage.googleapis.com/v0/b/todo-firebase-d0284.appspot.com/o/'+todo.imageName+'.jpg?alt=media)'}" >
+      <!-- <ion-img [src]="'https://firebasestorage.googleapis.com/v0/b/todo-firebase-d0284.appspot.com/o/' + todo.imageName + '.jpg?alt=media'"  ></ion-img>-->
+      <ion-buttons slot="start">
+          <ion-back-button></ion-back-button>
+       </ion-buttons>
+      
+      
+    <div class="goodDay">
+        <ion-item class ="bgGone" lines="none">
+          <ion-input required type="text" placeholder="Taak hier" [(ngModel)]="todo.task"></ion-input>
+        </ion-item>
+      </div>
+    </div>
+
+  </ion-toolbar>
+</ion-header>
+ 
+<ion-content padding>
+  <ion-list lines="full">
+
+    <ion-item>
+      <ion-input required type="number" placeholder="Prioriteit" [(ngModel)]="todo.priority" value="{{this.pripri}}">
+      </ion-input>
+    </ion-item>
+
+  </ion-list>
+  <ion-row>
+
+  </ion-row>
+  
+  <ion-row>
+    <ion-col>
+  <ion-fab-button round (click)="getPicture()"><ion-icon name="camera"></ion-icon></ion-fab-button>
+</ion-col>
+<ion-col>
+
+  <ion-fab-button float-right (click)="saveTodo()"><ion-icon name="add"></ion-icon></ion-fab-button>
+</ion-col>
+
+</ion-row>
+</ion-content>

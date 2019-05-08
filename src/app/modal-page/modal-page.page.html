@@ -1,0 +1,21 @@
+<ion-header>
+  <ion-toolbar color="primary">
+      <div class="goodDay">
+          Instellingen
+        </div>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+    <ion-item lines="none">
+      <ion-label>Algemene Prioriteit:</ion-label>
+        <ion-input required type="number" placeholder="Default prioriteit" [(ngModel)]="pri"></ion-input>
+      </ion-item>
+      <ion-fab vertical="bottom" horizontal="end" slot="fixed" >
+      <ion-fab-button (click)="setPri(pri)"><ion-icon name="save"></ion-icon></ion-fab-button>
+    </ion-fab>
+
+    <ion-fab vertical="bottom" horizontal="start" slot="fixed" >
+        <ion-fab-button (click)="back()"><ion-icon name="close-circle"></ion-icon></ion-fab-button>
+      </ion-fab>
+</ion-content>

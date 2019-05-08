@@ -1,0 +1,78 @@
+.fake-skeleton {
+    width: 60%;
+}
+
+ion-toolbar{
+    height: 300px;
+    text-align: left !important;
+    background: url('toolbarBg.png') 0 0/100% 100% no-repeat;
+    background-repeat: no-repeat;
+    background-size:cover;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.19), 0 2px 2px rgba(0,0,0,0.23);
+    
+}
+
+.goodDay{
+    margin-top: 150px;
+    font-size: 200%;
+    padding-left: 20px;
+    color: #F8F8FF;
+    font-family: 'Dosis-Bold'
+}
+
+.checkMark{
+    font-size: 100%;
+
+}
+
+ion-fab-button{
+    height: 70px;
+    width: 70Px;
+}
+
+ion-icon {
+    font-size: 600%;
+}
+
+.goodDay2{
+    font-size: 70%;
+    color: #F8F8FF;
+    font-family: 'Dosis-Medium'
+}
+ion-title{
+    text-align: left;
+    font-size: 200%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 0 90px 1px;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+
+ion-content {
+    --background: #F8F8FF;
+    
+}
+ion-item {
+    --border-color: rgb(205, 205, 205);
+    --ion-background-color:rgba(255, 0, 0, 0);
+
+}
+.itemBg{
+    --ion-background-color:rgba(255, 0, 0, 0);
+    --background:rgba(255, 0, 0, 0);
+
+}
+ion-item-sliding{
+    --ion-background-color:rgba(255, 0, 0, 0);
+    --background:rgba(255, 0, 0, 0);
+
+}
+ion-list{
+    --ion-background-color:rgba(255, 0, 0, 0);
+    --background:rgba(255, 0, 0, 0);
+}
+

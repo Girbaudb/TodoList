@@ -1,0 +1,103 @@
+
+ion-content {
+
+    --background: #F8F8FF;
+
+}
+
+ion-item{
+    background:#F8F8FF;
+
+}
+
+ion-buttons{
+    position: fixed;
+}
+
+
+ion-toolbar{
+    text-align: left !important;
+
+    box-shadow: 0 2px 5px rgba(0,0,0,0.19), 0 2px 2px rgba(0,0,0,0.23);
+}
+
+.bgImageTb{
+    background-repeat: no-repeat;
+    background-size:cover;
+    margin: -5px;
+
+    &:before {
+        content: '';
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        background-image: linear-gradient(to bottom ,#5C6BC0,rgba(140, 141, 185, 0.331));
+        opacity: 1; 
+      }
+
+}
+
+.goodDay ion-item ion-input{
+    margin-top: 150px;
+    font-size: 200%;
+    text-align: center;
+    color: #F8F8FF;
+    font-family: 'Dosis-Bold' !important;
+    border: 0px;
+    background: rgba(248, 248, 255, 0) !important;
+    z-index: 20;
+}
+
+
+
+ion-icon{
+    color: #F8F8FF;
+    font-size: 600%;
+}
+
+.homeIcon{
+    font-size: 200%;
+    margin-top: 0px;
+}
+
+ion-fab-button{
+    height: 70px;
+    width: 70Px;
+}
+
+ion-img.img{
+    width: 100% !important;
+    z-index: 0 !important;
+    margin: -5px -5px -5px -5px;
+
+}
+
+ion-img{
+    z-index: 0 !important;
+    position: fixed;
+    margin: -5px;
+
+
+}
+ion-back-button{
+    font-size: 150%;
+}
+
+
+.rightBut{
+    align-content: right;
+}
+
+ion-item {
+    --ion-background-color:rgba(255, 0, 0, 0);
+    --background: rgba(248, 248, 255, 0);
+    z-index: 20;
+    
+
+}
+
+.bgGone{
+    background: rgba(248, 248, 255, 0);
+}
